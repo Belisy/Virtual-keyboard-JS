@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA,EACE,UACF,CAEA,IACE,WACF","sources":["webpack://virtual-2/./src/css/style.css"],"sourcesContent":["p {\r\n  color: pink;\r\n}\r\n\r\ndiv {\r\n  width: 100px;\r\n}\r\n"],"names":[],"sourceRoot":""}

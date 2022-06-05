@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"mBAIAA,QAAQC,IAAIC,I","sources":["webpack://virtual-2/./src/js/index.js"],"sourcesContent":["import \"../css/style.css\";\r\n\r\nlet a = 1;\r\nlet b = 2;\r\nconsole.log(a + b);\r\n"],"names":["console","log","a"],"sourceRoot":""}

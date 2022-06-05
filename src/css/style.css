@@ -1,0 +1,132 @@
+* {
+  /* // 드래그 */
+  user-select: none;
+  outline: none;
+}
+
+html[color-theme="dark"] {
+  /*  // 색반전 */
+  filter: invert(100%) hue-rotate(180deg);
+}
+body {
+  font-size: 16px;
+}
+.container {
+  background-color: #fff;
+  width: 1050px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+}
+.menu .btn-toggle {
+  margin-right: 120px;
+  margin-bottom: 34px;
+  color: gray;
+  cursor: pointer;
+}
+.menu .btn-toggle .toggle_off {
+  display: none;
+}
+.select-box {
+  position: relative;
+}
+.select-box select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  height: 34px;
+  width: 200px;
+}
+
+.input-group {
+  margin: 100px 0;
+}
+.input-group .text-input {
+  border: none;
+  border-bottom: 3px solid lightgray;
+  width: 1050px;
+  height: 50px;
+  font-size: 2rem;
+}
+.input-group .error-message {
+  color: #cc0033;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+  text-align: center;
+  display: none;
+}
+
+.error input {
+  border-bottom: 2px solid red;
+}
+
+.error .error-message {
+  display: block;
+}
+
+.keyboard {
+  background-color: gray;
+  color: gray;
+  width: 1050px;
+  border-radius: 4px;
+}
+.keyboard .row {
+  display: flex;
+}
+.keyboard .row .key {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.keyboard .row .key:hover {
+  background-color: pink;
+}
+.keyboard .row .key:active {
+  background-color: rgb(217, 146, 158);
+}
+.keyboard .row .key.active {
+  background-color: rgb(217, 146, 158);
+}
+.keyboard .row .key .two-value {
+  width: 100%;
+  text-align: center;
+}
+.keyboard .row .fn-key {
+  width: 80px;
+}
+.keyboard .row .space-key {
+  width: 420px;
+}
+.keyboard .row .back-space-key {
+  width: 130px;
+}
+.keyboard .row .tab-key {
+  width: 95px;
+}
+.keyboard .row .back-slash-key {
+  width: 95px;
+}
+
+.keyboard .row .caps-lock-key {
+  width: 110px;
+}
+
+.keyboard .row .left-shift-key {
+  width: 145px;
+}
+
+.keyboard .row .enter-key {
+  width: 150px;
+}
+
+.keyboard .row .right-shift-key {
+  width: 185px;
+}
